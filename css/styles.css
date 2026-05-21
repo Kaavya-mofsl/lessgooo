@@ -2750,6 +2750,8 @@ footer           { border-top-color: var(--divider) !important; }
     0 12px 40px rgba(0,0,0,0.50);
   overflow: hidden;
   position: relative;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  mask-image: radial-gradient(white, black);
 }
 .stock-card::before {
   content: '';
