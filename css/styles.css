@@ -2926,9 +2926,10 @@ footer           { border-top-color: var(--divider) !important; }
 
 /* ── Mobile ── */
 @media (max-width: 900px) {
+  #landingSection { padding-bottom: 80px; }
   .landing-inner {
     grid-template-columns: 1fr;
-    padding: 60px 28px 200px;
+    padding: 60px 28px 120px;
     text-align: center;
     gap: 40px;
   }
@@ -2942,13 +2943,14 @@ footer           { border-top-color: var(--divider) !important; }
     position: absolute !important;
     top: auto !important;
     right: auto !important;
-    bottom: 64px !important;
+    bottom: 100px !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
   }
 }
 @media (max-width: 540px) {
-  .landing-inner { padding: 48px 20px 180px; }
+  #landingSection { padding-bottom: 60px; }
+  .landing-inner { padding: 48px 20px 80px; }
   .landing-headline { font-size: clamp(38px, 9vw, 52px); }
   .dock-pill { padding: 8px 12px; gap: 0; }
   .dock-icon-btn { width: 44px; height: 44px; }
